@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Starting Spark cyrpto-currency miner"
+echo "Starting Spark"
 MINER=$MINER_EXEC
 MINER_URL=$URL
 MINER_USERNAME=$USERNAME
