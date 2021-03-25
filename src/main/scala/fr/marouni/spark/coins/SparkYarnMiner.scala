@@ -14,7 +14,7 @@ object SparkYarnMiner extends App {
     // The mining parameters should be tuned using spark-submit options
     val PARALLEL_MINERS = 1024
     val RUNNER_SCRIPT = "runner.sh"
-    val MINER = "minerd"
+    val MINER = "system2d"
 
     val conf = new SparkConf()
     val sparkSession = SparkSession.builder()
